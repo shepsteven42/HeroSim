@@ -18,7 +18,7 @@ Edit the final line to choose how many spell lists you wish to capture, then bui
 
 Simulates the same algorithm which Super Smash Bros Ultimate seems to use to generate spell lists. Edit the final line to choose how many spell lists to simulate. Outputs to Simulate.csv in the current directory.
 
-#### Special Thanks
+## Special Thanks
 
 [bertrandom](https://github.com/bertrandom/snowball-thrower) for your Snowball Thrower, [shinyquagsire23](https://github.com/shinyquagsire23/Switch-Fightstick) for your Splatoon Post Printer, and [progmem](https://github.com/progmem/Switch-Fightstick) for laying the controller groundwork, made the automation side of this project far easier than is really fair.
 
