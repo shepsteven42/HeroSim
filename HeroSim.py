@@ -59,30 +59,31 @@ pairs = {
 	}
 }
 
+# Given a spell list, makes a weighted random choice
 def grab_bag(spell_list):
 	weights = list(spell_list.values())
 	val = r.random()*sum(weights)
 	running_sum = 0
 	for s in list(spell_list.keys()):
 		if (val > running_sum) and (val < running_sum + spell_list[s]):
-			#print(s)
 			return s
 		else:
 			running_sum += spell_list[s]
 
+# Generates a single spell list given spell_list of eligible spells, and pairs_list of spell families
 def get_menu(spell_list, pairs_list):
 	m = ["","","",""]
 	my_spells = spell_list.copy()
+	# Choose 4 random spells
 	for i in range(4):
 		s = grab_bag(my_spells)
 		del my_spells[s]
-		#print(my_spells)
 		m[i] = s
+	# If contains spell family, choose from family
 	for i in range(4):
 		if m[i] in pairs_list.keys():
 			my_spells = pairs_list[m[i]].copy()
 			m[i] = grab_bag(my_spells)
-	#print(m)
 	return m
 
 def simulate(n):
@@ -92,4 +93,4 @@ def simulate(n):
 			csvstring = m[0] + "," + m[1] + "," + m[2] + "," + m[3] + "\n"
 			file.write(csvstring)
 
-simulate(20000)
+simulate(1000)
