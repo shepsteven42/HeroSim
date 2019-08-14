@@ -86,6 +86,7 @@ def get_menu(spell_list, pairs_list):
 			m[i] = grab_bag(my_spells)
 	return m
 
+# main routine to write to outfile
 def simulate(n):
 	with open("Simulate.csv", "w") as file:
 		for i in range(n):
