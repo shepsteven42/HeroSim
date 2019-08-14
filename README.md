@@ -25,3 +25,7 @@ Simulates the same algorithm which Super Smash Bros Ultimate seems to use to gen
 [bertrandom](https://github.com/bertrandom/snowball-thrower) for your Snowball Thrower, [shinyquagsire23](https://github.com/shinyquagsire23/Switch-Fightstick) for your Splatoon Post Printer, and [progmem](https://github.com/progmem/Switch-Fightstick) for laying the controller groundwork, made the automation side of this project far easier than is really fair.
 
 [Luke Garbutt](https://youtu.be/_5ml_Y9hqG8) on Youtube, this was the workaround I used when OpenCV couldn't detect my Elgato Capture Card. Everything else fell into place naturally around what I borrowed from this video. Thanks.
+
+## I'm Unemployed
+
+At the risk of sounding preachy, I'm actively searching for employment as a Data Scientist/Analyst or a C++/Python/Java developer. I have a Bachelor's Degree in Mathematics of Computation from UCLA, class of June 2019. Please reach out to me with any opportunities via email at shepsteven42+jobs@gmail.com
