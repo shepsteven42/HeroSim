@@ -2,6 +2,8 @@
 
 For a video explanation, [click here](https://www.youtube.com/watch?v=HBB9Zq3s9gQ). It will make more sense what this code is trying to accomplish if you've watched this video first.
 
+![Explanation](/Explanation.png)
+
 ## HeroOCR.py
 
 Reads the spell list from Hero's Down Special in Super Smash Bros. Ultimate.
