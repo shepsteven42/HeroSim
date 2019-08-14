@@ -223,6 +223,7 @@ def detect_spells_file(filename):
 	else:
 		return
 
+#thread routine to read images in file_list queue
 def reading_worker(N, file_list, spell_lists, fail_list,start_time):
 	total = 0
 	while total < N:
@@ -246,6 +247,7 @@ def reading_worker(N, file_list, spell_lists, fail_list,start_time):
 				print("Estimated time remaining: %0.2f minutes" % ((time.time() - start_time)/total*(N-total)/60))
 	return
 
+#thread routine to grab N screenshots and push them to imagelist queue
 def grabbing_worker(N, imagelist, spell_lists):
 	print("Beginning Screen Grabber...")
 	grab_screens_2(N, imagelist)
